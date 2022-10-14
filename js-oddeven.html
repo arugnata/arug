@@ -1,0 +1,20 @@
+<html>
+<body>
+ 
+   <div id="number"></div>
+   <script>
+      let output=document.getElementById("number");
+      function check(number)
+      {
+         var isOdd = number & 1;
+         var isEven= !(number & 1);
+         if(isOdd) {
+            output.innerHTML= "\n" + number + " is odd number";
+         }
+         else
+            output.innerHTML = "\n" + number + " is even number";
+      }
+      check(47);
+   </script>
+</body>
+</html>
