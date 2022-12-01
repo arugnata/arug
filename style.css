@@ -1,0 +1,22 @@
+table{
+	background-color: turquoise;
+	
+	color: white;
+	id: header;
+	text-align: center;
+	width: 100%;
+
+
+
+}
+
+
+
+
+.td{
+	font-size: 20em;
+	width: 100%;
+	border-spacing:0px;
+	width: 100%;
+	word-spacing: 0%;
+}
