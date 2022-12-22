@@ -1,5 +1,5 @@
-table{
-	background-color: turquoise;
+table1{
+	background-color: black;
 	
 	color: white;
 	id: header;
@@ -19,4 +19,28 @@ table{
 	border-spacing:0px;
 	width: 100%;
 	word-spacing: 0%;
+}	
+
+ .checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
 }
+
+#check{
+	display: none;
+}
+
+.checkbtn{
+	display: block;
+}
+
+.img{
+	width: 10px;
+	height: 10px;
+}
+
